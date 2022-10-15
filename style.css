@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+
+p{
+    color: #153a5b;
+ 
+}
+
+.rof, .spb, .ycf{
+    margin: 10px;
+}
+
+.calcContainer{
+    width: 700px;
+    height: 250px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.top-text{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.mid-text{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+
+.calcSection{
+    width: 400px;
+    /* border: 1px solid black; */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.calcSection input{
+    width: 100px;
+    height: 50px;
+    border: 1px solid silver;
+    padding: 5px 5px 5px 5px;
+}
+
+.calcBtn{
+    width: 200px;
+    height: 50px;
+    background: #153a5b;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer ;
+}
+
+
+.resultContainer{
+    width: 700px;
+    height: 300px;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    display: none;
+    transition: 4s ease-in;
+
+}
+
+.resultContainer .box1, .resultContainer .box2, .resultContainer .box3{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid blue;
+    
+}
+
+.resultContainer p{
+    font-size: 18px;
+    text-align: center;
+}
+
+small{
+    font-weight: bold;
+}
